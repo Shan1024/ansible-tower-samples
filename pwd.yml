@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: print current working directory
+    command: pwd
