@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ ping_host }}"
+- hosts: "{{ instance }}"
   tasks:
   - name: print current working directory
     command: pwd
