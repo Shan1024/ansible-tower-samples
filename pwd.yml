@@ -3,3 +3,5 @@
   tasks:
   - name: print current working directory
     command: pwd
+  - name: Remove test directory
+    script: /scripts/check_dir.sh
