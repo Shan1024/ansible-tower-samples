@@ -4,4 +4,4 @@
   - name: print current working directory
     command: pwd
   - name: Remove test directory
-    script: /home/ec2-user/scripts/check_dir.sh
+    script: scripts/check_dir.sh
